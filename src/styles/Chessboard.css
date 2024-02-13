@@ -1,0 +1,23 @@
+.chessboard{
+   display: flex;
+   flex-wrap: wrap;
+   background-color: #B66031;
+   width: 800px;
+   height: 800px;
+}
+
+.tile {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100px;
+   height: 100px;
+}
+
+.light-tile {
+   background-color: beige;
+}
+
+.dark-tile {
+   background-color: #B66031;
+}
