@@ -1,17 +1,19 @@
-.chessboard{
+.chessboard {
    display: flex;
    flex-wrap: wrap;
    background-color: #B66031;
-   width: 800px;
-   height: 800px;
+   border: 30px solid #5786bd;
+   border-radius: 10px;
+   width: 640px;
+   height: 640px;
 }
 
 .tile {
    display: flex;
    justify-content: center;
    align-items: center;
-   width: 100px;
-   height: 100px;
+   width: 80px;
+   height: 80px;
 }
 
 .light-tile {
@@ -19,5 +21,5 @@
 }
 
 .dark-tile {
-   background-color: #B66031;
+   background-color: #4D6D92;
 }
